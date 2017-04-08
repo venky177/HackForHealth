@@ -55,34 +55,34 @@ public class Forum extends AppCompatActivity {
         tags.add("Tag 3");
         tags.add("Tag 4");
         tags.add("Tag 5");
-        UserThread thread = new UserThread("Mad Max: Fury Road", tags);
+        UserThread thread = new UserThread("Mad Max: Fury Road", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Inside Out", tags);
+        thread = new UserThread("Inside Out", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Star Wars: Episode VII - The Force Awakens", tags);
+        thread = new UserThread("Star Wars: Episode VII - The Force Awakens", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Shaun the Sheep", tags);
+        thread = new UserThread("Shaun the Sheep", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("The Martian", tags);
+        thread = new UserThread("The Martian", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Mission: Impossible Rogue Nation", tags);
+        thread = new UserThread("Mission: Impossible Rogue Nation", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Up", tags);
+        thread = new UserThread("Up", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Star Trek", tags);
+        thread = new UserThread("Star Trek", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("The LEGO UserThread", tags);
+        thread = new UserThread("The LEGO UserThread", tags, "");
         threadList.add(thread);
 
-        thread = new UserThread("Iron Man", tags);
+        thread = new UserThread("Iron Man", tags, "");
         threadList.add(thread);
 
         mAdapter.notifyDataSetChanged();
